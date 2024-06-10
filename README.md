@@ -1,3 +1,10 @@
+>**Nota:** Para visualizar la gitpage de este proyecto lo puede realizar precionando el siguiente enlace.
+https://monkychilote.github.io/desafio11_Calculatotal/
+>
+>
+
+  
+
 # Explicación del HTML:
 
 Con respecto a lo que tiene que ver con el desafio, ya que se esta reutilizando parte de la estructura del proyecto anterior y agregando la funcionalidad solicitada. 

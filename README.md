@@ -20,7 +20,7 @@ El archivo HTML proporciona la estructura de la página web.
 El archivo CSS estiliza los elementos de la página para que se vean bien y sean funcionales:
 
 1. **Estilos Básicos:** 
-    + Se aplica una fuente sans-serif para una apariencia moderna y clara.
+    + Se aplica una fuente Poppins y sans-serif para una apariencia moderna y clara.
     + El cuerpo de la página se centra utilizando Flexbox, lo que asegura que el contenido esté centrado tanto horizontal como verticalmente.
 
 2. **Contenedor de Productos:** 

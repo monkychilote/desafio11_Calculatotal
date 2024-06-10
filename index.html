@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculando el total</title>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./asset/img/ico_apple.png"
+    />
+  </head>
+  <body>
+    <div class="navbar_Movil">
+      <div class="logo_Movil">
+        <img src="./asset/img/opt/logo_desafio_11.png" alt="Logo" />
+      </div>
+      <div class="rrss_Movil">
+        <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div id="inicio" class="menu_Movil">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#pie">Contacto</a></li>
+        </ul>
+      </div>
+      <div id="inicio-ham" class="menu_Hamburguesa">
+        <label for="menu-toggle" class="menu-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <ul class="menu">
+          <li><a href="#inicio-ham">Inicio</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#pie">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="gran-contenedor">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./asset/img/opt/logo_desafio_11.png" alt="Logo" />
+        </div>
+        <div id="inicio-pc" class="menu">
+          <ul>
+            <li><a href="#inicio-pc">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#pie">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="rrss">
+          <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div id="nosotros" class="contenido">
+        <div class="descripcion">
+          <h1 class="animacion-h1">Articulos electronicos</h1>
+          <p class="fadein-parrafo">
+            Calcula cual es el valor por mas de una de cada una de las unidades
+            en venta.
+          </p>
+        </div>
+
+        <div id="galeria" class="galeria">
+          <div class="contenedor-productos">
+            <div class="tarjeta-producto">
+              <img
+                src="./asset/img/notebook.jpg"
+                alt="Notebook"
+                class="imagen-producto"
+              />
+              <h2 class="nombre-producto">Notebook</h2>
+              <p class="precio-producto" id="precio-producto1">
+                Precio: $500,000
+              </p>
+              <div class="control-cantidad">
+                <button id="boton-disminuir1">-</button>
+                <span id="cantidad1">1</span>
+                <button id="boton-aumentar1">+</button>
+              </div>
+              <p class="precio-total" id="precio-total1">Total: $500,000</p>
+            </div>
+            <div class="tarjeta-producto">
+              <img
+                src="./asset/img/iphone.jpg"
+                alt="Celular"
+                class="imagen-producto"
+              />
+              <h2 class="nombre-producto">Celular</h2>
+              <p class="precio-producto" id="precio-producto2">
+                Precio: $300,000
+              </p>
+              <div class="control-cantidad">
+                <button id="boton-disminuir2">-</button>
+                <span id="cantidad2">1</span>
+                <button id="boton-aumentar2">+</button>
+              </div>
+              <p class="precio-total" id="precio-total2">Total: $300,000</p>
+            </div>
+            <div class="tarjeta-producto">
+              <img
+                src="./asset/img/audifono.jpg"
+                alt="Audifonos"
+                class="imagen-producto"
+              />
+              <h2 class="nombre-producto">Audifonos</h2>
+              <p class="precio-producto" id="precio-producto3">
+                Precio: $400,000
+              </p>
+              <div class="control-cantidad">
+                <button id="boton-disminuir3">-</button>
+                <span id="cantidad3">1</span>
+                <button id="boton-aumentar3">+</button>
+              </div>
+              <p class="precio-total" id="precio-total3">Total: $400,000</p>
+            </div>
+
+            <div class="tarjeta-producto">
+              <img
+                src="./asset/img/drone.jpg"
+                alt="Drone"
+                class="imagen-producto"
+              />
+              <h2 class="nombre-producto">Drone</h2>
+              <p class="precio-producto" id="precio-producto4">
+                Precio: $500,000
+              </p>
+              <div class="control-cantidad">
+                <button id="boton-disminuir4">-</button>
+                <span id="cantidad4">1</span>
+                <button id="boton-aumentar4">+</button>
+              </div>
+              <p class="precio-total" id="precio-total4">Total: $500,000</p>
+            </div>
+
+            <div class="tarjeta-producto">
+              <img
+                src="./asset/img/mouse.jpg"
+                alt="Mouse"
+                class="imagen-producto"
+              />
+              <h2 class="nombre-producto">Mouse</h2>
+              <p class="precio-producto" id="precio-producto5">
+                Precio: $600,000
+              </p>
+              <div class="control-cantidad">
+                <button id="boton-disminuir5">-</button>
+                <span id="cantidad5">1</span>
+                <button id="boton-aumentar5">+</button>
+              </div>
+              <p class="precio-total" id="precio-total5">Total: $600,000</p>
+            </div>
+
+            <div class="tarjeta-producto">
+              <img
+                src="./asset/img/realidad_Aumentada.jpg"
+                alt="Realidad Aumentada"
+                class="imagen-producto"
+              />
+              <h2 class="nombre-producto">Lentes</h2>
+              <p class="precio-producto" id="precio-producto7">
+                Precio: $700,000
+              </p>
+              <div class="control-cantidad">
+                <button id="boton-disminuir6">-</button>
+                <span id="cantidad6">1</span>
+                <button id="boton-aumentar6">+</button>
+              </div>
+              <p class="precio-total" id="precio-total6">Total: $700,000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pie" class="pie">
+      <div class="info-contacto">
+        <p>Contacto: contacto@miweb.com</p>
+      </div>
+      <div class="redes-sociales">
+        <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <script src="./asset/js/script.js"></script>
+  </body>
+</html>
